@@ -33,7 +33,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+        <li onclick="mobileMenu()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-menu">
             <path d="M4 6l16 0"></path>
             <path d="M4 12l16 0"></path>
@@ -41,9 +41,9 @@
           </svg></li>
       </ul>
     </nav>
-    <div class="mobile-nav closed-menu"><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+    <div class="mobile-nav closed-menu"><span><svg onclick="closeMenu()" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-          stroke-linejoin="round" class="tabler-icon tabler-icon-x">
+          stroke-linejoin="round" class="tabler-icon tabler-icon-x cross-icon">
           <path d="M18 6l-12 12"></path>
           <path d="M6 6l12 12"></path>
         </svg></span>
@@ -176,6 +176,7 @@
       </div>
     </footer>
   </div>
+  <script src="./index.js"></script>
 </body>
 
 </html>
